@@ -45,6 +45,7 @@ $ docker-compose up
 
 ```bash
 # Plase make sure join to the "Docs from the api" after run the project, you can found in localhost:3000/documentation
+⬇
 ```
 - Docs - [Documentation](https://localhost:3000/documentation)
 
