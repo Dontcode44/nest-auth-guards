@@ -41,7 +41,10 @@ $ docker-compose up
 
 # Once you have your account, you can go to the login and generate an access token for the protected routes
 ```
-
+## If u want a better experience
+```bash
+# Plase make sure join to this url/localhost:3000/documentation
+```
 ## Test
 
 ```bash
