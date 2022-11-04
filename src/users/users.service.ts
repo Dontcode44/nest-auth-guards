@@ -35,7 +35,7 @@ export class UsersService {
       },
     });
     if (userFound) {
-      throw new Error('User already exists');
+      throw new Error('In use');
     }
     const hashPassword = await bcrypt.hash(user.password, 10);
     user.password = hashPassword;
