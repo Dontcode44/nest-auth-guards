@@ -5,7 +5,6 @@
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
@@ -30,8 +29,10 @@ $ npm run start:prod
 ```
 
 ## Docker container
+```bash
 # Bring up docker services
 $ docker-compose up
+```
 
 ## Warning
 [Docker-compose](https://docs.docker.com/compose/compose-file/compose-versioning/) make sure you have a compatible version from the file
