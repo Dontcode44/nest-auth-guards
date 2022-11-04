@@ -11,6 +11,13 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
       secretOrKey: 'SuperSecret',
     });
   }
+
+  /**
+   * It takes a payload, which is the decoded JWT, and returns an object with the user's id and
+   * username
+   * @param {any} payload - The JWT payload.
+   * @returns The user's id and username.
+   */
   async validate(payload: any) {
     return {
       id: payload.sub,
