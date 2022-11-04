@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  database:
+    image: mysql:8
+    container_name: guards_jwt
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: guards
+      MYSQL_DATABASE: guards_jwt
+    ports:
+      - 33064:3306
+    volumes:
+      - ./data/mysql:/var/lib/mysql
