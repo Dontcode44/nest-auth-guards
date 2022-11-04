@@ -42,10 +42,12 @@ $ docker-compose up
 # Once you have your account, you can go to the login and generate an access token for the protected routes
 ```
 ## If u want a better experience
-# Docs - [Docs from the api](localhost:3000/documentation)
+
 ```bash
 # Plase make sure join to the "Docs from the api" after run the project
 ```
+# Docs - [Documentation](localhost:3000/documentation)
+
 ## Test
 
 ```bash
