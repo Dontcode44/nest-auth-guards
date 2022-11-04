@@ -28,17 +28,14 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Docker container
+## Warning
+[Docker-compose](https://docs.docker.com/compose/compose-file/compose-versioning/) make sure you have a compatible version from the file
+
 ```bash
 # Bring up docker services
 $ docker-compose up
 ```
 
-## Warning
-[Docker-compose](https://docs.docker.com/compose/compose-file/compose-versioning/) make sure you have a compatible version from the file
-
-
-```
 ## Test
 
 ```bash
