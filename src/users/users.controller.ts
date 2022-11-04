@@ -29,7 +29,7 @@ export class UsersController {
   @UseGuards(JwtAuthGuard)
   @Get(':id')
   async getOne(@Param('id', ParseIntPipe) id: number) {
-    return await this.usersService.getOne(id);
+    return await this.usersService.getOne(+id);
   }
 
   @Post('register')
@@ -42,7 +42,7 @@ export class UsersController {
   @UseGuards(JwtAuthGuard)
   @Delete(':id')
   async deleteUser(@Param('id', ParseIntPipe) id: number) {
-    return await this.usersService.deleteUser(id);
+    return await this.usersService.deleteUser(+id);
   }
 
   @UseGuards(JwtAuthGuard)
@@ -51,6 +51,6 @@ export class UsersController {
     @Param('id', ParseIntPipe) id: number,
     @Body() user: UpdateUserDto,
   ): Promise<UpdateUserDto> {
-    return await this.usersService.updateUser(id, user);
+    return await this.usersService.updateUser(+id, user);
   }
 }
