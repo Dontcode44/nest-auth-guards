@@ -37,7 +37,7 @@ $ docker-compose up
 ```
 ```bash
 # The use of protected routes is handled by JWTs and watchdogs that take care of maintaining a specific validation task, so please don't forget to register a user with the required fields "username", "email" and a "password"
-# Please make sure you don't use invalid emails, because the gatekeeper won't let it through.
+# Please make sure you don't use invalid emails, because the guard won't let it through.
 
 # Once you have your account, you can go to the login and generate an access token for the protected routes
 ```
