@@ -20,7 +20,7 @@ import { ConfigModule } from '@nestjs/config';
         database: process.env.DB_DATABASE,
         entities: [__dirname + '/**/*.entity{.ts,.js}'],
         synchronize: true,
-        retryAttempts: 8,
+        retryAttempts: 9,
       }),
     }),
     AuthModule,
