@@ -15,7 +15,7 @@
 $ npm install
 ```
 
-## Running the app
+## Running the app (The app run in the port 3000)
 
 ```bash
 # development
@@ -35,6 +35,7 @@ $ npm run start:prod
 # Bring up docker services
 $ docker-compose up
 ```
+
 
 ## Test
 
