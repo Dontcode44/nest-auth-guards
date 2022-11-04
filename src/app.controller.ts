@@ -12,7 +12,7 @@ export class AppController {
     return req.user;
   }
   @Get()
-  getHello(): string {
-    return this.appService.getHello();
+  getHello(@Request() requ): string {
+    return requ.user;
   }
 }
