@@ -44,9 +44,9 @@ $ docker-compose up
 ## If u want a better experience
 
 ```bash
-# Plase make sure join to the "Docs from the api" after run the project
+# Plase make sure join to the "Docs from the api" after run the project, you can found in localhost:3000/documentation
 ```
-# Docs - [Documentation](localhost:3000/documentation)
+Docs - [Documentation](localhost:3000/documentation)
 
 ## Test
 
